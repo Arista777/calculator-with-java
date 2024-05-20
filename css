@@ -1,0 +1,29 @@
+#calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 2px solid #333; /* Añade un borde sólido de color negro */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  padding: 10px; /* Añade espacio alrededor del contenido */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+}
+
+#calculator button {
+  font-size: 20px;
+  padding: 15px;
+  border: none; /* Elimina el borde de los botones */
+  background-color: ; /* Fondo blanco para los botones */
+}
+
+#display {
+  grid-column: span 4;
+  text-align: right;
+  background: #EEE8AA;
+  padding: 15px;
+  font-size: 24px;
+  border: 2px solid #333; /* Añade un borde sólido de color negro */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  margin-bottom: 10px; /* Agrega espacio debajo del display */
+}
